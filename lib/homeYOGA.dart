@@ -348,6 +348,12 @@ class DetailsScreen extends StatelessWidget {
                     SizedBox(
                       height: 30,
                     ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
                   ],
                 ),
               ),
@@ -358,3 +364,4 @@ class DetailsScreen extends StatelessWidget {
     );
   }
 }
+//Flutter APP cOMMIT aLL cHANGES
