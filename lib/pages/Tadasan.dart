@@ -94,7 +94,7 @@ thigh.
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
                             height: 290,
-                            width: 350,
+                            width: 351,
                             child: Text.rich(
                               TextSpan(children: <InlineSpan>[
                                 TextSpan(
