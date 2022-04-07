@@ -452,3 +452,156 @@ class _Exercise4State extends State<Exercise4> {
     );
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+//Github Terminal er
+/*
+gaurav@gaurav:~/flutter/exercise$ echo "# Flutter-Yoga" >> README.md
+gaurav@gaurav:~/flutter/exercise$ git init
+d README.md
+git commit -m "first commit"
+git brancReinitialized existing Git repository in /home/gaurav/flutter/exercise/.git/
+h -M main
+git remote add origin https://github.comgaurav@gaurav:~/flutter/exercise$ git add README.md
+/H0mePage/Flutter-Yoga.git
+git push -u origin maingaurav@gaurav:~/flutter/exercise$ git commit -m "first commit"
+[main 9a730bd] first commit
+ 1 file changed, 1 insertion(+)
+gaurav@gaurav:~/flutter/exercise$ git branch -M main
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/Flutter-Yoga.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git push -u origin main
+fatal: remote error: 
+  You can't push to git://github.com/samrao2/manager-4.git
+  Use https://github.com/samrao2/manager-4.git
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/Flutter-Yoga.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git branch -M main
+igin maingaurav@gaurav:~/flutter/exercise$ git push -u origin main
+fatal: remote error: 
+  You can't push to git://github.com/samrao2/manager-4.git
+  Use https://github.com/samrao2/manager-4.git
+gaurav@gaurav:~/flutter/exercise$ echo "# yoga-app" >> README.md
+gaurav@gaurav:~/flutter/exercise$ git init
+ADME.md
+git commit -m "first commit"
+git branch -MReinitialized existing Git repository in /home/gaurav/flutter/exercise/.git/
+gaurav@gaurav:~/flutter/exercise$ git add README.md
+ main
+git remote add origin https://github.com/H0mgaurav@gaurav:~/flutter/exercise$ git commit -m "first commit"
+ePage/yoga-app.git
+git push -u origin main[main fadbf22] first commit
+ 1 file changed, 1 insertion(+)
+gaurav@gaurav:~/flutter/exercise$ git branch -M main
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/yoga-app.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git push -u origin main
+fatal: remote error: 
+  You can't push to git://github.com/samrao2/manager-4.git
+  Use https://github.com/samrao2/manager-4.git
+gaurav@gaurav:~/flutter/exercise$ git remote rm origin 
+gaurav@gaurav:~/flutter/exercise$ git remote add origin git@github.com:user/repo.git
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:user/repo.git'
+gaurav@gaurav:~/flutter/exercise$ git config –global user.name “H0mePage”
+error: key does not contain a section: –global
+gaurav@gaurav:~/flutter/exercise$ git config --global user.name “H0mePage”
+gaurav@gaurav:~/flutter/exercise$ git config –global user.email “gauravsuryavanshi7484@gmail.com”
+error: key does not contain a section: –global
+gaurav@gaurav:~/flutter/exercise$ git config --global user.email “gauravsuryavanshi7484@gmail.com”
+gaurav@gaurav:~/flutter/exercise$ git config –global user.email “gauravsuryavanshi7484@gmail.com”
+error: key does not contain a section: –global
+gaurav@gaurav:~/flutter/exercise$ git remote add origin git@github.com:H0mePage/exercise.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$  git remote add origin git@github.com:H0mePage/exer^[[Ccise.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git remote rm origin
+gaurav@gaurav:~/flutter/exercise$ git remote add origin git@github.com:H0mePage/exercise.git
+gaurav@gaurav:~/flutter/exercise$ git add .
+gaurav@gaurav:~/flutter/exercise$ git commit -m ‘your_message’
+On branch main
+nothing to commit, working tree clean
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:H0mePage/exercise.git'
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:H0mePage/exercise.git'
+gaurav@gaurav:~/flutter/exercise$ ^C
+gaurav@gaurav:~/flutter/exercise$ git commit -m "initial commit"
+terOn branch main
+nothing to commit, working tree clean
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:H0mePage/exercise.git'
+gaurav@gaurav:~/flutter/exercise$ git commit -m "initial commit"
+terOn branch master
+nothing to commit, working tree clean
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+The authenticity of host 'github.com (13.234.210.38)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added 'github.com,13.234.210.38' (ECDSA) to the list of known hosts.
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gaurav@gaurav:~/flutter/exercise$ sudo yum install git
+[sudo] password for gaurav: 
+sudo: yum: command not found
+gaurav@gaurav:~/flutter/exercise$ git push origin master
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+gaurav@gaurav:~/flutter/exercise$ git config user.name
+“H0mePage”
+gaurav@gaurav:~/flutter/exercise$ git init
+mmit"
+git branch -M main
+git remote add origin httReinitialized existing Git repository in /home/gaurav/flutter/exercise/.git/
+gaurav@gaurav:~/flutter/exercise$ git add README.md
+ps://github.com/H0mePage/yoga-app.git
+git push -u gaurav@gaurav:~/flutter/exercise$ git commit -m "first commit"
+On branch master
+nothing to commit, working tree clean
+origin maingaurav@gaurav:~/flutter/exercise$ git branch -M main
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/yoga-app.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'git@github.com:H0mePage/exercise.git'
+gaurav@gaurav:~/flutter/exercise$  git branch -M master
+gaurav@gaurav:~/flutter/exercise$  git remote add origin https://github.com/H0mePage/yoga-app.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ fatal: remote origin already exists.git remote add origin https://github.com/H0mePage/yoga-app.git
+fatal:: command not found
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/yoga-app.git
+fatal: remote origin already exists.
+gaurav@gaurav:~/flutter/exercise$ git remote rm origin
+gaurav@gaurav:~/flutter/exercise$ git remote rm origin
+fatal: No such remote: 'origin'
+gaurav@gaurav:~/flutter/exercise$ git remote add origin https://github.com/H0mePage/yoga-app.git
+gaurav@gaurav:~/flutter/exercise$ git remote -v
+origin  https://github.com/H0mePage/yoga-app.git (fetch)
+origin  https://github.com/H0mePage/yoga-app.git (push)
+gaurav@gaurav:~/flutter/exercise$ git add .
+gaurav@gaurav:~/flutter/exercise$ git push -u origin master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+*/
