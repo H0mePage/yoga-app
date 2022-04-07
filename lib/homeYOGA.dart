@@ -280,31 +280,31 @@ class DetailsScreen extends StatelessWidget {
                           height: 30,
                         ),
 
-                        InkWell(
-                          onTap: () {}, // Handle your callback.
-                          splashColor: Color.fromARGB(255, 141, 88, 128)
-                              .withOpacity(0.5),
-                          //borderRadius: BorderRadius.circular(40.0),
-                          child: Ink(
-                            height: 180,
-                            width: 350,
-                            child: Text(
-                              "Padmasan",
-                              style: GoogleFonts.robotoSlab(
-                                  color: Color.fromARGB(207, 0, 0, 0),
-                                  fontSize: 43,
-                                  fontWeight: FontWeight.w600),
-                            ),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(25.0),
-                              image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://image.shutterstock.com/shutterstock/photos/1439564978/display_1500/stock-vector-man-doing-yoga-yogi-sitting-in-padmasana-lotus-pose-meditating-relaxing-calm-down-and-manage-1439564978.jpg'),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ),
+                        // InkWell(
+                        //   onTap: () {}, // Handle your callback.
+                        //   splashColor: Color.fromARGB(255, 141, 88, 128)
+                        //       .withOpacity(0.5),
+                        //   //borderRadius: BorderRadius.circular(40.0),
+                        //   child: Ink(
+                        //     height: 180,
+                        //     width: 350,
+                        //     child: Text(
+                        //       "Padmasan",
+                        //       style: GoogleFonts.robotoSlab(
+                        //           color: Color.fromARGB(207, 0, 0, 0),
+                        //           fontSize: 43,
+                        //           fontWeight: FontWeight.w600),
+                        //     ),
+                        //     decoration: BoxDecoration(
+                        //       borderRadius: BorderRadius.circular(25.0),
+                        //       image: DecorationImage(
+                        //         image: NetworkImage(
+                        //             'https://image.shutterstock.com/shutterstock/photos/1439564978/display_1500/stock-vector-man-doing-yoga-yogi-sitting-in-padmasana-lotus-pose-meditating-relaxing-calm-down-and-manage-1439564978.jpg'),
+                        //         fit: BoxFit.cover,
+                        //       ),
+                        //     ),
+                        //   ),
+                        // ),
 
                         // MaterialButton(
                         //   child:Container(
