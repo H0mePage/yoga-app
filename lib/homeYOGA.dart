@@ -152,8 +152,7 @@ class DetailsScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(25.0),
                               image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://cdn.dribbble.com/users/3097534/screenshots/11937583/media/5faf91e3bbcfb47271d0bf2e87b4d2aa.gif'),
+                                image: AssetImage('assets/yoga2.gif'),
                                 fit: BoxFit.fill,
                               ),
                             ),
