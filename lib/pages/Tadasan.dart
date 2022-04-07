@@ -2,14 +2,14 @@ import 'package:exercise/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class padmasan extends StatefulWidget {
-  padmasan({Key? key}) : super(key: key);
+class tadasan extends StatefulWidget {
+  tadasan({Key? key}) : super(key: key);
 
   @override
-  State<padmasan> createState() => _padmasanState();
+  State<tadasan> createState() => _tadasanState();
 }
 
-class _padmasanState extends State<padmasan> {
+class _tadasanState extends State<tadasan> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,12 +36,7 @@ class _padmasanState extends State<padmasan> {
               //     ),
               //   ),
               // ),
-
-//  https://media.giphy.com/media/mRkBcuSCnD533U2JXO/giphy.gif
-              Container(
-                  child: Image.asset(
-                "assets/yoga3.gif",
-              )),
+              Container(child: Image.asset("assets/2.jpg", scale: 1.0)),
 
               SizedBox(
                 height: 20,
@@ -53,7 +48,7 @@ class _padmasanState extends State<padmasan> {
                 child: Column(
                   children: [
                     Text(
-                      "Padmasan",
+                      "Tadasana",
                       style: GoogleFonts.robotoSlab(
                           color: Color.fromARGB(207, 0, 0, 0),
                           fontSize: 45,
@@ -98,7 +93,7 @@ thigh.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
-                            height: 500,
+                            height: 290,
                             width: 350,
                             child: Text.rich(
                               TextSpan(children: <InlineSpan>[
@@ -128,7 +123,7 @@ thigh.
                             //                     ),
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(25.0),
-                                color: Color.fromARGB(96, 113, 81, 255)),
+                                color: Color.fromARGB(76, 255, 86, 179)),
                           ),
                         ),
                         SizedBox(
@@ -140,13 +135,12 @@ thigh.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
-                            height: 490,
-                            width: 350,
+                            height: 380,
+                            width: 400,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(25.0),
                               image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://media.giphy.com/media/mRkBcuSCnD533U2JXO/giphy.gif'),
+                                image: AssetImage('assets/Tadasana.gif'),
                                 fit: BoxFit.cover,
                               ),
                             ),

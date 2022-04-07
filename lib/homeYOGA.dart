@@ -142,7 +142,7 @@ class DetailsScreen extends StatelessWidget {
                       children: [
                         InkWell(
                           onTap: () {
-                            Navigator.pushNamed(context, '/Exercise2');
+                            Navigator.pushNamed(context, '/padmasan');
                           }, // Handle your callback.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
@@ -152,7 +152,7 @@ class DetailsScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(25.0),
                               image: DecorationImage(
-                                image: AssetImage('assets/yoga2.gif'),
+                                image: AssetImage('assets/2.jpg'),
                                 fit: BoxFit.fill,
                               ),
                             ),
@@ -172,7 +172,9 @@ class DetailsScreen extends StatelessWidget {
                           height: 30,
                         ),
                         InkWell(
-                          onTap: () {}, // Handle your callback.
+                          onTap: () {
+                            Navigator.pushNamed(context, '/tadasan');
+                          }, // Handle your callback.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
@@ -181,9 +183,18 @@ class DetailsScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(25.0),
                               image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://image.shutterstock.com/shutterstock/photos/1439564978/display_1500/stock-vector-man-doing-yoga-yogi-sitting-in-padmasana-lotus-pose-meditating-relaxing-calm-down-and-manage-1439564978.jpg'),
-                                fit: BoxFit.cover,
+                                image: AssetImage('assets/3.jpg'),
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            child: Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Text(
+                                "Tadasana",
+                                style: GoogleFonts.robotoSlab(
+                                    color: Color.fromARGB(255, 255, 255, 255),
+                                    fontSize: 33,
+                                    fontWeight: FontWeight.w600),
                               ),
                             ),
                           ),
@@ -192,9 +203,10 @@ class DetailsScreen extends StatelessWidget {
                         SizedBox(
                           height: 30,
                         ),
-
                         InkWell(
-                          onTap: () {}, // Handle your callback.
+                          onTap: () {
+                            Navigator.pushNamed(context, '/Vrikshasana');
+                          }, // Handle your callback.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
@@ -203,9 +215,18 @@ class DetailsScreen extends StatelessWidget {
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(25.0),
                               image: DecorationImage(
-                                image: NetworkImage(
-                                    'https://image.shutterstock.com/shutterstock/photos/1439564978/display_1500/stock-vector-man-doing-yoga-yogi-sitting-in-padmasana-lotus-pose-meditating-relaxing-calm-down-and-manage-1439564978.jpg'),
-                                fit: BoxFit.cover,
+                                image: AssetImage('assets/3.jpg'),
+                                fit: BoxFit.fill,
+                              ),
+                            ),
+                            child: Align(
+                              alignment: Alignment.bottomCenter,
+                              child: Text(
+                                "Vrikshasana",
+                                style: GoogleFonts.robotoSlab(
+                                    color: Color.fromARGB(255, 255, 255, 255),
+                                    fontSize: 33,
+                                    fontWeight: FontWeight.w600),
                               ),
                             ),
                           ),
@@ -337,15 +358,6 @@ class DetailsScreen extends StatelessWidget {
                         //           color: Color.fromARGB(255, 0, 0, 0)),
                         //     ))
                       ],
-                    ),
-                    SizedBox(
-                      height: 30,
-                    ),
-                    SizedBox(
-                      height: 30,
-                    ),
-                    SizedBox(
-                      height: 30,
                     ),
                   ],
                 ),

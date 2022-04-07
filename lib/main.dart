@@ -1,6 +1,8 @@
 // import 'package:exercise/dimentions.dart';
+import 'package:exercise/pages/Tadasan.dart';
 import 'package:exercise/pages/exercise.dart';
 import 'package:exercise/pages/padmasan.dart';
+import 'package:exercise/pages/vrikshasana.dart';
 import 'package:exercise/slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -29,12 +31,13 @@ class MyApp extends StatelessWidget {
         '/': (context) => DetailsScreen(), //Exercise3();
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/Exercise1': (context) => Exercise1(),
-        '/Exercise2': (context) => padmasan(),
+        '/padmasan': (context) => padmasan(),
         '/Exercise3': (context) => Exercise(),
         '/Exercise4': (context) => Exercise4(),
         '/ExerciseInfo': (context) => exerciseInfo(),
         '/ExerciseInformation': (context) => ExerciseInformation(),
-
+        '/tadasan': (context) => tadasan(),
+        '/Vrikshasana': (context) => Vrikshasana(),
         // '/Home': (context) => BasicDemo(),
       },
     );

@@ -2,14 +2,14 @@ import 'package:exercise/constant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class padmasan extends StatefulWidget {
-  padmasan({Key? key}) : super(key: key);
+class Vrikshasana extends StatefulWidget {
+  Vrikshasana({Key? key}) : super(key: key);
 
   @override
-  State<padmasan> createState() => _padmasanState();
+  State<Vrikshasana> createState() => _VrikshasanaState();
 }
 
-class _padmasanState extends State<padmasan> {
+class _VrikshasanaState extends State<Vrikshasana> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,12 +36,7 @@ class _padmasanState extends State<padmasan> {
               //     ),
               //   ),
               // ),
-
-//  https://media.giphy.com/media/mRkBcuSCnD533U2JXO/giphy.gif
-              Container(
-                  child: Image.asset(
-                "assets/yoga3.gif",
-              )),
+              Container(child: Image.asset("assets/yoga3.gif", scale: 1.0)),
 
               SizedBox(
                 height: 20,
@@ -53,7 +48,7 @@ class _padmasanState extends State<padmasan> {
                 child: Column(
                   children: [
                     Text(
-                      "Padmasan",
+                      "Vrikshasana",
                       style: GoogleFonts.robotoSlab(
                           color: Color.fromARGB(207, 0, 0, 0),
                           fontSize: 45,
@@ -67,12 +62,12 @@ class _padmasanState extends State<padmasan> {
                       width: 230.0,
                       child: Text(
                         '''
-Lotus position or Padmasana
-(Sanskrit: पद्मासन) is a cross
--legged sitting meditation
-pose in which each foot
-is placed on the opposite 
-thigh.
+Vrikshasana is derived 
+from vriksha means a 
+tree in English. Thus
+,Vrikshasana is also known
+as the tree pose.
+
 ''',
                         style: GoogleFonts.robotoSlab(
                             fontSize: 16,
@@ -98,7 +93,7 @@ thigh.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
-                            height: 500,
+                            height: 340,
                             width: 350,
                             child: Text.rich(
                               TextSpan(children: <InlineSpan>[
@@ -107,12 +102,16 @@ thigh.
 
      Benefits of Padmasana:
 
-      ⦿ Improves digestion
-      ⦿ Helps relax the mind and
-          alleviates stress.
-      ⦿ Eases childbirth. ...
-      ⦿ Helps reduce menstrual
-          pain and cramps.''',
+      ⦿ Improves Balance
+      ⦿ Improve Mental Health
+      ⦿ Helps to Build Focus
+         and Concentration
+      ⦿ Strengthens Leg and
+         arms Muscles.
+      ⦿ Maintain Good Posture
+      ⦿ Reduces The Risk Of 
+         Sciatica
+      ''',
                                   style: GoogleFonts.robotoSlab(
                                       fontSize: 20,
                                       color: Color.fromARGB(220, 0, 0, 0),
@@ -132,7 +131,17 @@ thigh.
                           ),
                         ),
                         SizedBox(
-                          height: 30,
+                          height: 20,
+                        ),
+                        Divider(
+                          height: 20,
+                          thickness: 6,
+                          indent: 0,
+                          endIndent: 0,
+                          color: Color.fromARGB(45, 94, 60, 247),
+                        ),
+                        SizedBox(
+                          height: 20,
                         ),
 
                         InkWell(
@@ -140,13 +149,34 @@ thigh.
                           splashColor: Colors.brown.withOpacity(0.5),
                           //borderRadius: BorderRadius.circular(40.0),
                           child: Ink(
-                            height: 490,
+                            height: 180,
                             width: 350,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(25.0),
+                              borderRadius: BorderRadius.circular(15.0),
                               image: DecorationImage(
                                 image: NetworkImage(
-                                    'https://media.giphy.com/media/mRkBcuSCnD533U2JXO/giphy.gif'),
+                                    'https://media.giphy.com/media/xT0xeKVUYbSAkJL2Sc/giphy.gif'),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
+                          ),
+                        ),
+
+                        SizedBox(
+                          height: 20,
+                        ),
+                        InkWell(
+                          onTap: () {}, // Handle your callback.
+                          splashColor: Colors.brown.withOpacity(0.5),
+                          //borderRadius: BorderRadius.circular(40.0),
+                          child: Ink(
+                            height: 180,
+                            width: 350,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(15.0),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                    'https://media.giphy.com/media/3o6fJ9n1PyspiMejxC/giphy.gif'),
                                 fit: BoxFit.cover,
                               ),
                             ),
