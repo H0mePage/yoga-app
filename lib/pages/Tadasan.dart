@@ -111,7 +111,7 @@ thigh.
                                   style: GoogleFonts.robotoSlab(
                                       fontSize: 20,
                                       color: Color.fromARGB(220, 0, 0, 0),
-                                      fontWeight: FontWeight.w600),
+                                      fontWeight: FontWeight.w700),
                                 )
                               ]),
                             ),
